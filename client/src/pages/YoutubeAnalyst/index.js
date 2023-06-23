@@ -25,7 +25,7 @@ export default function YoutubeAnalystPage() {
 			const config = {
 				method: 'get',
 				maxBodyLength: Infinity,
-				url: 'https://vithsd-backend.vercel.app/api/youtube/count',
+				url: 'https://vi-thsd-website.vercel.app/api/youtube/count',
 				headers: {
 					'Content-Type': 'application/json',
 				},
