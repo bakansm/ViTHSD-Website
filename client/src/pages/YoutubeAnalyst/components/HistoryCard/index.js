@@ -21,7 +21,7 @@ export default function HistoryCard() {
 			let config = {
 				method: 'get',
 				maxBodyLength: Infinity,
-				url: `http://localhost:5001/api/youtube/comment?start=${start}`,
+				url: `https://vithsd-backend.vercel.app/api/youtube/comment?start=${start}`,
 				headers: {
 					'Content-Type': 'application/json',
 				},
